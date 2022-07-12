@@ -16,6 +16,8 @@ a{
     text-decoration: none;
     cursor: pointer;
 }
+
+/*HEADER*/
 header{
     width: 100%;
     height: 6rem;
@@ -53,9 +55,43 @@ nav .nav-right-section img{
     margin-left: 1rem;
 }
 
+/*MAIN*/
+main{
+    margin-top: 15rem;
+    text-align: center;
+}
 
+main .main-logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
 
+main .main-logo img{
+    width: 30rem;
+}
 
+main .main-input{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+
+main .main-input-container{
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 0.1rem solid #5f6368;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 45rem;
+    height: 4rem;
+    border: none;
+    outline: none;
+}
 
 
 
